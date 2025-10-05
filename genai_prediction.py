@@ -4,7 +4,7 @@ import json
 from urllib.parse import urlparse
 
 # Configure GenAI API Key
-genai.configure(api_key="AIzaSyA0xEUjMpuMO1WaU_RuVSqFKoDFvF7BErM")
+genai.configure(api_key="Your Key")
 
 def prediction_with_genai(url, features, data):
     report_input = f"""
