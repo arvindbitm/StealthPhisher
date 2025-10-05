@@ -1,0 +1,8 @@
+google-generativeai
+requests
+dnspython
+python-whois
+pyOpenSSL
+bs4
+matplotlib
+networkx
