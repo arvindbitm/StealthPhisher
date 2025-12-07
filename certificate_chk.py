@@ -1,7 +1,6 @@
 import ssl
 import socket
 import OpenSSL
-
 def get_ssl_info(domain):
     """Extracts SSL certificate information for a domain."""
     try:
@@ -25,4 +24,5 @@ def get_ssl_info(domain):
                 }
                 return cert_info
     except Exception as e:
+
         return {"error": f"Error fetching SSL info: {str(e)}"}
